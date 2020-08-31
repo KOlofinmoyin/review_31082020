@@ -8,10 +8,7 @@ Company makes academic Maths papers easier to read.
 - would like for the string calculator to work for: +, -, /, *
 
 ### Assumptions:
-1.
-2.
-3.
-4.
+1. Client will always give 'string' arguments.
 
 ```
 INPUT           |    OUTPUT
@@ -24,7 +21,7 @@ INPUT           |    OUTPUT
 (done)"1 + 2"         | ["1 + 2", 3]
 (done)"1 - 2"         | ["1 - 2", -1]
 (done)"4 - 2"         | ["4 - 2", 2]
-"8 / 2"         | ["8 / 2", 4]
+(done)"8 / 2"         | ["8 / 2", 4]
 "4 * 2"         | ["4 * 2", 8]
 "5.2 - 1.1 "    | ["5.2 - 1.1 ", 4.1]
 "one - 1"       | "Input must be a valid mathematical string separated by spaces"
