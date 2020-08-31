@@ -16,6 +16,8 @@ Company makes academic Maths papers easier to read.
 ```
 INPUT           |    OUTPUT
 =============================
+""              | [""]
+"1"             | ["1"]
 ""              | ["",0]
 "1"             | ["1", 1]
 "2"             | ["2", 2]
