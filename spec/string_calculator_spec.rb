@@ -22,4 +22,8 @@ describe "#string_calculator" do
     expect(string_calculator("1 - 2")).to eq(["1 - 2", -1])
   end
 
+  it 'takes "4 - 2" and returns ["4 - 2", 2]' do
+    expect(string_calculator("4 - 2")).to eq(["4 - 2", 2])
+  end
+
 end
