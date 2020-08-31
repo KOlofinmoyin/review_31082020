@@ -22,7 +22,7 @@ INPUT           |    OUTPUT
 (done)"1 - 2"         | ["1 - 2", -1]
 (done)"4 - 2"         | ["4 - 2", 2]
 (done)"8 / 2"         | ["8 / 2", 4]
-"4 * 2"         | ["4 * 2", 8]
+(done)"4 * 2"         | ["4 * 2", 8]
 "5.2 - 1.1 "    | ["5.2 - 1.1 ", 4.1]
 "one - 1"       | "Input must be a valid mathematical string separated by spaces"
 
