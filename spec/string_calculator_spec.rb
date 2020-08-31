@@ -14,8 +14,12 @@ describe "#string_calculator" do
     expect(string_calculator("2")).to eq(["2", 2])
   end
 
-  # "1 + 2"         | ["1 + 2", 3]
   it 'takes "1 + 2" and returns ["1 + 2", 3]' do
     expect(string_calculator("1 + 2")).to eq(["1 + 2", 3])
   end
+
+  it 'takes "1 - 2" and returns ["1 - 2", -1]' do
+    expect(string_calculator("1 - 2")).to eq(["1 - 2", -1])
+  end
+
 end

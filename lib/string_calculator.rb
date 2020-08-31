@@ -7,9 +7,10 @@ def string_calculator(figure)
     sum = figure.split(" ")
 if sum.include?("+")
   input = sum[0].to_i + sum[2].to_i
+elsif sum.include?("-")
+  input = sum[0].to_i - sum[2].to_i
 else
   input = figure.to_i
 end
-
   result.push(input)
 end
