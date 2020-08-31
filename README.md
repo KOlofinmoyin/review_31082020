@@ -17,9 +17,9 @@ Company makes academic Maths papers easier to read.
 INPUT           |    OUTPUT
 =============================
 (retired) ""              | [""]
-(done) "1"             | ["1"]
+(retired) "1"             | ["1"]
 (done)""              | ["",0]
-"1"             | ["1", 1]
+(done)"1"             | ["1", 1]
 "2"             | ["2", 2]
 "1 + 2"         | ["1 + 2", 3]
 "1 - 2"         | ["1 - 2", -1]
